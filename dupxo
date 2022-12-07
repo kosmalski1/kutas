@@ -1,0 +1,10 @@
+function cats(int $start, int $finish): int {
+if($start == $finish){
+  return 0;
+}else if(($finish-$start)%3){
+    return $finish/$start %3 ; 
+  }else{
+    
+ 
+  return $finish%3 -1 ; }
+}
